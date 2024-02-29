@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    //background: url('hatter.jpg') no-repeat;
+    background-color: brown;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: sepia(50%);
+
+
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: sepia(50%)
+
+}
+
+.logo{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+.navbar a{
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2.5rem;
+}
+
+#check{
+    display: none;
+}
+
+.icons {
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3rem 5%;
+    } 
+}
+
+@media (max-width: 768px) {
+    .icons {
+        display: inline-flex;
+    }
+    
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon{
+        display: block;
+        
+    }
+
+    .header{
+        padding: 1.3rem 5%;
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: sepia(50%)
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0; 
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: sepia(50%);
+        transition: .5s ease;
+        overflow: hidden; 
+    }
+
+    #check:checked~.navbar{
+        height: 17.7rem;
+    }
+
+    .header{
+        padding: 1.3rem 5%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        backdrop-filter: sepia(50%)
+    
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 5%;
+        text-align: right;
+        transform: translateY(-50px);
+        transition: .5s ease;
+
+    }
+
+    #check:checked~.navbar a{
+        transform: translateY(0);
+        transition-delay: calc(.15s * var(--i));
+    }
+}
