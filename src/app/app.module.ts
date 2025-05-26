@@ -10,7 +10,9 @@ import { NavComponent } from './nav/nav.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    
+
   ],
   imports: [
     BrowserModule,
