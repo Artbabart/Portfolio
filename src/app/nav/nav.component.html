@@ -10,8 +10,10 @@
 
     <header class="header">
         
-        <label for="" class="logo">L O G O</label>
-
+        <div class="nav-content">
+            <img src="assets/images/logo.png" alt="logo" class="logo-img">
+        </div>
+        
         <input type="checkbox" id="check">
         <label for="check" class="icons">
             <i class='bx bx-menu' id="menu"></i>
@@ -19,10 +21,10 @@
         </label>
 
         <nav class="navbar">
-            <a href="#" style="--i:0;">H T M L / C S S</a>
-            <a href="#" style="--i:1;">T Y P E S C R I P T</a>
-            <a href="#" style="--i:2;">P Y T H O N</a>
-            <a href="#" style="--i:3;">A B O U T</a>
+            <a routerLink="/frontend" routerLinkActive="active" style="--i:0;">F R O N T E N D</a>
+            <a routerLink="/backend" routerLinkActive="active" style="--i:1;">B A C K E N D</a>
+            <a routerLink="/demo" routerLinkActive="active" style="--i:1;">D E M O S</a>
+            <a routerLink="/home" routerLinkActive="active" style="--i:3;">C U R R I C U L U M    V I T A E</a>
         </nav>
     </header>
 </body>
