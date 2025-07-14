@@ -1,190 +1,133 @@
+$bg-color: linear-gradient(to left, #105679, #f54f4d, #105679);
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  box-sizing: border-box;
+}
 
-  }
+html{
+  margin: 0;
+  padding: 0;
+}
 
-  h1{
-    color: white;
-    margin-top: 170px;
-    margin-right: 600px;
+body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  background: $bg-color;
+  color: white;
+  padding-top: 2rem;
+}
 
-  }
-
-  .nev{
-    color: white;
-    margin-top: 20px;
-    margin-left: 400px;
-    margin-right: auto;
-    border-bottom: 3px solid;
-  }
-
-  h2{
-    color: white;
-    text-align: justify;
-    margin-top: 40px;
-
-  }
-  
-  h3{
-    color: white;
-    text-align: justify;
-    margin-top: 60px;
-    // margin-right: 300px;
-    // margin-left: 50px;
-    border-bottom: 3px solid;
-  }
-
-  .bemutatkozas{
-    margin-top: 300px;
-    margin-left: 100px;
-    text-align: justify;
-  }
-
-  .tapasztalat{
-    margin-top: 100px;
-    margin-left: 100px;
-    text-align: justify;
-  }
-
-  .tanulmanyok{
-    margin-top: 120px;
-    margin-left: 100px;
-    text-align: justify;
-  }
-
-  .eredmenyek{
-    margin-top: 120px;
-    margin-left: 100px;
-    text-align: justify;
-  }
-
-  html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
-  body {
-    min-height: 100vh;
-    background: linear-gradient(to left, #105679, #f54f4d, #105679);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-  
 .container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-    padding: 40px;
-
-  }
-
-.kepem-img{
-  height: 470px;
-  width: 325px;
-  margin-top: 90px;
-  border-radius: 20%;
-  margin-left: 300px;
-}
-.kepem-img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-}
-
-
-.kapcsolat{
-  margin-top: 83px;
-  margin-left: 200px;
-  
-}
-
-.keszsegek{
-  margin-top: 83px;
-  margin-left: 200px;
-}
-
-
-.kepem {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  margin-top: 2rem;
 }
 
-.kepem-img {
-  height: 470px;
-  width: 325px;
-  border-radius: 20%;
+.sidebar, .content {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding-left: 2rem;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    text-align: center; /* ez új */
-  }
-
-  .kepem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* ez új */
-    width: 100%;
-    margin-top: 100px;
-  }
+.sidebar {
+  flex: 1 1 300px;
 
   .kepem-img {
-    margin: 0;
-    height: 300px;
-    width: 220px;
-    border-radius: 15%;
+    width: 100%;
+    max-width: 220px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10%;
+    border:  3px solid;
   }
 
-  .kepem-img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
+  .name {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  .button-wrapper {
+    text-align: center;
+    margin: 1.5rem 0;
+
+    .btn {
+      background-color: brown;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+
+
+      &:hover {
+        background-color: #105679;
+      }
+    }
+  }
+
+  section {
+    margin-bottom: 1.5rem;
+
+    h2{
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: brown;
+      padding-left: 1rem;
+    }
+
+    p {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      padding-left: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 2rem;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
 }
 
+.content {
+  flex: 2 1 600px;
 
-  .nev {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    border-bottom: 3px solid white;
+  section {
+    margin-bottom: 2rem;
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: brown;
+      padding-left: 1rem;
+    }
+
+    p,
+    li {
+      line-height: 1.6;
+      padding-right: 2rem;
+      text-align: justify;
+    }
   }
+}
 
-  .kapcsolat, .keszsegek {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 40px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .content,
-  .bemutatkozas,
-  .tapasztalat,
-  .tanulmanyok,
-  .eredmenyek {
-    margin: 0 auto;
-    padding: 0 15px;
-    text-align: center;
-  }
-
-  h2, h3 {
-    text-align: center;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
   }
 }

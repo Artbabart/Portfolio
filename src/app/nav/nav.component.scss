@@ -49,8 +49,6 @@
     display: none;
 }
 
-// BREAKPOINTS
-
 @media (max-width: 768px) {
   .navbar {
     position: absolute;
@@ -79,12 +77,12 @@
   }
 
   .icons #x{
-        display: none;
-    }
+    display: none;
+  }
 
-    #check:checked~.icons #x{
-        display: block;
-    }
+  #check:checked~.icons #x{
+    display: block;
+  }
 
   .icons {
     display: block;
