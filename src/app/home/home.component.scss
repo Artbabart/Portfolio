@@ -15,6 +15,7 @@ body {
   background: $bg-color;
   color: white;
   padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .container {
@@ -43,9 +44,14 @@ body {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
-    border-radius: 10%;
+    border-radius: 5%;
     border:  3px solid;
   }
+
+  .kepem-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
 
   .name {
     text-align: center;
@@ -69,7 +75,7 @@ body {
 
 
       &:hover {
-        background-color: #105679;
+        background-color: rgb(107, 26, 26);
       }
     }
   }
