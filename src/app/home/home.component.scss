@@ -8,9 +8,17 @@
 
   h1{
     color: white;
-    margin-top: 100px;
+    margin-top: 170px;
     margin-right: 600px;
 
+  }
+
+  .nev{
+    color: white;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: auto;
+    border-bottom: 3px solid;
   }
 
   h2{
@@ -24,9 +32,33 @@
     color: white;
     text-align: justify;
     margin-top: 60px;
-    margin-right: 300px;
-    margin-left: 50px;
+    // margin-right: 300px;
+    // margin-left: 50px;
     border-bottom: 3px solid;
+  }
+
+  .bemutatkozas{
+    margin-top: 300px;
+    margin-left: 100px;
+    text-align: justify;
+  }
+
+  .tapasztalat{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: justify;
+  }
+
+  .tanulmanyok{
+    margin-top: 120px;
+    margin-left: 100px;
+    text-align: justify;
+  }
+
+  .eredmenyek{
+    margin-top: 120px;
+    margin-left: 100px;
+    text-align: justify;
   }
 
   html, body {
@@ -62,5 +94,97 @@
   width: 325px;
   margin-top: 90px;
   border-radius: 20%;
-  margin-left: 100px;
+  margin-left: 300px;
+}
+.kepem-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.kapcsolat{
+  margin-top: 83px;
+  margin-left: 200px;
+  
+}
+
+.keszsegek{
+  margin-top: 83px;
+  margin-left: 200px;
+}
+
+
+.kepem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.kepem-img {
+  height: 470px;
+  width: 325px;
+  border-radius: 20%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center; /* ez új */
+  }
+
+  .kepem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* ez új */
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .kepem-img {
+    margin: 0;
+    height: 300px;
+    width: 220px;
+    border-radius: 15%;
+  }
+
+  .kepem-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+  .nev {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    border-bottom: 3px solid white;
+  }
+
+  .kapcsolat, .keszsegek {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content,
+  .bemutatkozas,
+  .tapasztalat,
+  .tanulmanyok,
+  .eredmenyek {
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
 }
