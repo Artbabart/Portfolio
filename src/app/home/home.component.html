@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tóth Júlia - Önéletrajz</title>
+  <title>{{ 'CV_TITLE' | translate }}</title>
        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
       <STYLE>
           p {
@@ -15,103 +15,130 @@
   <div class="container">
     <aside class="sidebar">
         <img src="assets/images/RJIJXB.jpg" alt="kepem" class="kepem-img">
-        <h1 class="name">Tóth Júlia</h1>
+        <h1 class="name">{{ 'NAME' | translate }}</h1>
       <div class="button-wrapper">
             <a href="assets/toth_julia_kesz_sarga.pdf" download class="btn">
                 <i class="bi bi-download"></i>
-                    Letölthető CV
+                    {{ 'DOWNLOAD_BUTTON' | translate }}
             </a>
+      </div>
+      <div class="language-switch">
+        <button class="btn" (click)="changeLanguage('hu')">Magyar</button>
+        <button class="btn" (click)="changeLanguage('en')">English</button>
       </div>
       <section class="contact">
           <h2>
-            Kapcsolat
+            <!-- Kapcsolat -->
+             {{ 'CONTACT' | translate }}
           </h2>
         <ul>
           <li>
             <i class="bi bi-geo-alt"></i>
-            2120 Dunakeszi, Hunyadi János utca 110.
+            {{ 'ADDRESS' | translate }}
+            <!-- 2120 Dunakeszi, Hunyadi János utca 110. -->
           </li>
           <li>
             <i class="bi bi-telephone"></i>
-            +36203740333
+            {{ 'PHONE' | translate }}
+            <!-- +36203740333 -->
           </li>
           <li>
             <i class="bi bi-send"></i>
-            t.julia982{{'@'}}gmail.com
+            {{ 'EMAIL' | translate }}
+            <!-- t.julia982{{'@'}}gmail.com -->
           </li>
           <li>
             <i class="bi bi-stars"></i>
-            2001.01.31
+            {{ 'BORN' | translate }}
+            <!-- 2001.01.31 -->
           </li>  
           <li>
             <i class="bi bi-flag"></i>
-            magyar
+            {{ 'NATIONALITY' | translate }}
+            <!-- magyar -->
           </li> 
           <li>
             <i class="bi bi-people"></i>
-            hajadon
+            {{ 'MARITAL_STATUS' | translate }}
+            <!-- hajadon -->
           </li>
           <li>
             <i class="bi bi-github"></i>
-            Github: github.com/artbabar
+            {{ 'GITHUB' | translate }}
+            <!-- Github: github.com/artbabar -->
           </li>
           <li>
             <i class="bi bi-globe-americas"></i>
-            Portfólióm: portfolio-1-qyd0.onrender.com
+            {{ 'PORTFOLIO' | translate }}
+            <!-- Portfólióm: portfolio-1-qyd0.onrender.com -->
           </li>    
         </ul>
       </section>
       <section class="skills">
         <h2>
-          Készségek
+          {{ 'SKILLS' | translate }}
+          <!-- Készségek -->
         </h2>
         <div class="hard-skills">
-          <p>Hard skillek: </p>
+          <p>{{ 'HARD_SKILLS' | translate }} </p>
           <ul>
             <li>
-              Angular használata (HTML/CSS/TYPE SCRIPT)
+              {{ 'FRONTEND' | translate }}
+              <!-- Angular használata (HTML/CSS/TYPE SCRIPT) -->
             </li>
             <li>
-              Laravel, Python
+              {{ 'BACKEND' | translate }}
+              <!-- Laravel, Python -->
             </li>
             <li>
-              SQL
+              {{ 'DATABASE' | translate }}
+              <!-- SQL -->
             </li>
             <li>
-              Git & GitHub: (https://github.com/artbabar)
+              {{ 'VERSION TRACKING' | translate }}
+              <!-- Git & GitHub: (https://github.com/artbabar) -->
             </li>
             <li>
-              Weboldal tervezés
-              (megvalósíthatóság, felhasználói élmény, design)
+              {{ 'WEBSITE DESIGN' | translate }}
+              <!-- Weboldal tervezés
+              (megvalósíthatóság, felhasználói élmény, design) -->
             </li>
             <li>
-              Photoshop/Illustrator használata
+              {{ 'GRAPHICS' | translate }}
+              <!-- Photoshop/Illustrator használata -->
             </li>
           </ul>
         </div>
         <div class="soft-skills">
-          <p>Soft skillek:</p>
+          <p>{{ 'SOFT_SKILLS' | translate }}</p>
           <ul>
             <li>
-              Algoritmikus és rendszerszintű gondolkodás
+              {{ 'WAY OF THINKING' | translate }}
+              <!-- Algoritmikus és rendszerszintű gondolkodás -->
             </li>
             <li>
-              Kreatív problémamegoldás
+              {{ 'PROBLEM SOLVE' | translate }}
+              <!-- Kreatív problémamegoldás -->
             </li>
             <li>
-              Önálló tanulás, és fejlődési igény
+              {{ 'LEARN' | translate }}
+              <!-- Önálló tanulás, és fejlődési igény -->
             </li>
             <li>
-              Önreflexió
+              {{ 'SELF' | translate }}
+              <!-- Önreflexió -->
             </li>
             <li>
-              Együttműködésre való képesség, csapatmunka
+              {{ 'ABILITY' | translate }}
+              <!-- Együttműködésre való képesség, csapatmunka -->
             </li>
             <li>
-              Kreatív vizuális tervezés
+              {{ 'VISUAL' | translate }}
+              <!-- Kreatív vizuális tervezés -->
             </li>
             <li>
-              Fókuszált munkavégzés
+              {{ 'FOCUS' | translate }}
+              <!-- Fókuszált munkavégzés -->
             </li>
           </ul>
         </div>
@@ -120,9 +147,10 @@
 
     <main class="content">
       <section class="about">
-        <h2>Bemutatkozás</h2>
+        <h2>{{ 'ABOUT' | translate }}</h2>
         <p>
-          Motivált és kreatív junior webfejlesztő vagyok, aki Angular és Laravel
+          {{ 'ABOUT_TEXT' | translate }}
+          <!-- Motivált és kreatív junior webfejlesztő vagyok, aki Angular és Laravel
             alapú webalkalmazások fejlesztésére specializálódott. Erős vizuális
             érzékemet és rendszerszintű gondolkodásomat a technikusi és
             mérnökinformatikus tanulmányaim, valamint saját portfólióprojektek
@@ -130,7 +158,7 @@
             a folyamatos tanulást elengedhetetlennek tartom. Célom, hogy
             felhasználóbarát, stabil és látványos megoldásokkal járuljak hozzá egy
             fejlesztőcsapat munkájához. Erősségeim közé tartozik a
-            megbízhatóság, és a következetes munkavégzés.
+            megbízhatóság, és a következetes munkavégzés. -->
         </p>
 
       </section>

@@ -1,0 +1,68 @@
+{
+  "CV_TITLE": "Tóth Júlia - Önéletrajz",
+  "NAME": "Tóth Júlia",
+  "DOWNLOAD_BUTTON": "Letölthető CV",
+  
+  "CONTACT": "Kapcsolat",
+  "ADDRESS": "2120 Dunakeszi, Hunyadi János utca 110.",
+  "PHONE": "+36203740333",
+  "EMAIL": "t.julia982@gmail.com",
+  "BORN": "2001.01.31",
+  "NATIONALITY": "magyar",
+  "MARITAL_STATUS": "hajadon",
+  "GITHUB": "Github: github.com/artbabar",  
+  "PORTFOLIO": "Portfólióm: portfolio-1-qyd0.onrender.com",
+  
+  "SKILLS": "Készségek",
+  "HARD_SKILLS": "Hard skillek",
+  "FRONTEND": "Angular használata (HTML/CSS/TYPE SCRIPT)",
+  "BACKEND": "Laravel, Python",
+  "DATABASE": "SQL",
+  "VERSION TRACKING": "Git & GitHub: (https://github.com/artbabar)",
+  "WEBSITE DESIGN": "Weboldal tervezés (megvalósíthatóság, felhasználói élmény, design)",
+  "GRAPHICS": "Photoshop/Illustrator használata",
+
+  "SOFT_SKILLS": "Soft skillek",
+  "WAY OF THINKING": "Algoritmikus és rendszerszintű gondolkodás",
+  "PROBLEM SOLVE": "Kreatív problémamegoldás",
+  "LEARN": "Önálló tanulás, és fejlődési igény",
+  "SELF": "Önreflexió",
+  "ABILITY": "Együttműködésre való képesség, csapatmunka",
+  "VISUAL": "Kreatív vizuális tervezés",
+  "FOCUS":  "Fókuszált munkavégzés",
+
+  "ABOUT": "Bemutatkozás",
+  "ABOUT_TEXT": "Motivált és kreatív junior webfejlesztő vagyok, aki Angular és Laravel alapú webalkalmazások fejlesztésére specializálódott. Erős vizuális érzékemet és rendszerszintű gondolkodásomat a technikusi és mérnökinformatikus tanulmányaim, valamint saját portfólióprojektek révén folyamatosan fejlesztem. Szeretek új technológiákat elsajátítani és a folyamatos tanulást elengedhetetlennek tartom. Célom, hogy felhasználóbarát, stabil és látványos megoldásokkal járuljak hozzá egy fejlesztőcsapat munkájához. Erősségeim közé tartozik a megbízhatóság, és a következetes munkavégzés.",
+  
+  "EXPERIENCE": "Munkatapasztalat",
+
+  "CHILD1": "Gyermekfelügyelet, Magánszemély - Dunakeszi, Pest", 
+  "CHILD2": "Alkalmi munka, 08/2023 - 05/2025",
+  "CHILD3": "Feladataim: gyermek felügyelete, kreatív foglalkozások és tanulási segítségnyújtás.",
+  "CHILD4": "Tapasztalatok: felelősségvállalás, pedagógiai és pszicológiai tapasztalatok, szabadidő szervezés.",
+
+  "WASHING1": "Mosogató, 360 BAR - Budapest, Pest",
+  "WASHING2": "Diákmunka, 05/2024 - 09/2024",
+  "WASHING3": "Feladataim: pohár- és konyhai mosogatóban való munkavégzés.",
+  "WASHING4": "Tapasztalatok: gyors munkavégzés, terhelhetőség, kommunikáció, csapatmunka.",
+
+  "PACKER1": "Csomagoló, Gamma Trade Kft. - Fót, Pest",
+  "PACKER2": "Diákmunka, 01/2024 - 07/2024",
+  "PACKER3": "Feladataim: játékkártyák csomagolása.",
+  "PACKER4": "Tapasztalatok: monotonitástűrés, teherbírás.",
+
+  "HELPER1": "Kisegítő, Gofri Ház - Dunakeszi, Pest",
+  "HELPER2": "Alkalmi munka, 01/2018 - 12/2020",
+  "HELPER3": "Feladataim között voltak: gofri elkészítése, tálalása, felszolgálása, rendelés felvétel, mosogatás, takarítás.",
+  "HELPER4": "Tapasztalatok: vendégekkel való kommunikáció, munkafolyamatok tervezése, és gyors elsajátítása, váratlan helyzetek kezelése, együttműködés.",
+
+
+  "EDUCATION": "Tanulmányok",
+  "PRIMARY1": "Alapfokú: ",
+  "PRIMARY2": "Általános iskola, 09/2008 - 12/2014 Bárdos Lajos Általános Iskola - Dunakeszi",
+  "PRIMARY3": "",
+  "PRIMARY4": "",
+
+  "RESULTS": "Eredmények",
+  "CCNA": "CCNA: Introduction to Networks course"
+}

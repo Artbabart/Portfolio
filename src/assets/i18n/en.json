@@ -1,0 +1,67 @@
+{
+  "CV_TITLE": "Júlia Tóth - Curriculum Vitae",
+  "NAME": "Julia Toth",
+  "DOWNLOAD_BUTTON": "Download CV",
+
+  "CONTACT": "Contact",
+  "ADDRESS": "2120 Dunakeszi, Hunyadi János Street 110.",
+  "PHONE": "+36203740333",
+  "EMAIL": "t.julia982@gmail.com",
+  "BORN": "2001.01.31",
+  "NATIONALITY": "Hungarian",
+  "MARITAL_STATUS": "Single",
+  "GITHUB": "GitHub: github.com/artbabar",
+
+  "PORTFOLIO": "My Portfolio: portfolio-1-qyd0.onrender.com",
+  "SKILLS": "Skills",
+  "HARD_SKILLS": "Hard Skills",
+  "FRONTEND": "Angular usage (HTML/CSS/TypeScript)",
+  "BACKEND": "Laravel, Python",
+  "DATABASE": "SQL",
+  "VERSION TRACKING": "Git & GitHub: (https://github.com/artbabar)",
+  "WEBSITE DESIGN": "Website design (feasibility, UX, UI)",
+  "GRAPHICS": "Using Photoshop/Illustrator",
+
+  "SOFT_SKILLS": "Soft Skills",
+  "WAY OF THINKING": "Algorithmic and systems-level thinking",
+  "PROBLEM SOLVE": "Creative problem solving",
+  "LEARN": "Independent learning and a drive for growth",
+  "SELF": "Self-reflection",
+  "ABILITY": "Ability to collaborate and work in teams",
+  "VISUAL": "Creative visual design",
+  "FOCUS": "Focused work",
+
+  "ABOUT": "About Me",
+  "ABOUT_TEXT": "I am a motivated and creative junior web developer specialized in building Angular and Laravel-based web applications. I continuously develop my strong visual sense and systems thinking through my engineering studies and personal portfolio projects. I enjoy learning new technologies and consider continuous learning essential. My goal is to contribute to a development team with user-friendly, stable, and visually impressive solutions. My strengths include reliability and consistent performance.",
+
+  "EXPERIENCE": "Work Experience",
+
+  "CHILD1": "Childcare, Private Employer – Dunakeszi, Pest",
+  "CHILD2": "Occasional Job, 08/2023 – 05/2025",
+  "CHILD3": "Tasks: supervising children, organizing creative activities, and providing learning support.",
+  "CHILD4": "Experience: responsibility, pedagogical and psychological insights, organizing leisure time.",
+
+  "WASHING1": "Dishwasher, 360 BAR – Budapest, Pest",
+  "WASHING2": "Student Job, 05/2024 – 09/2024",
+  "WASHING3": "Tasks: working in the glass and kitchen dishwashing area.",
+  "WASHING4": "Experience: fast-paced work, resilience, communication, teamwork.",
+
+  "PACKER1": "Packer, Gamma Trade Ltd. – Fót, Pest",
+  "PACKER2": "Student Job, 01/2024 – 07/2024",
+  "PACKER3": "Tasks: packing playing cards.",
+  "PACKER4": "Experience: tolerance for monotony, physical endurance.",
+
+  "HELPER1": "Helper, Gofri Ház – Dunakeszi, Pest",
+  "HELPER2": "Occasional Job, 01/2018 – 12/2020",
+  "HELPER3": "Tasks included: making, serving, and presenting waffles, taking orders, washing dishes, cleaning.",
+  "HELPER4": "Experience: communication with guests, planning and quickly learning workflows, handling unexpected situations, cooperation.",
+
+  "EDUCATION": "Education",
+  "PRIMARY1": "Primary:",
+  "PRIMARY2": "Elementary School, 09/2008 - 12/2014 Bárdos Lajos Elementary School – Dunakeszi",
+  "PRIMARY3": "",
+  "PRIMARY4": "",
+
+  "RESULTS": "Achievements",
+  "CCNA": "CCNA: Introduction to Networks course"
+}
