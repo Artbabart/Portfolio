@@ -59,10 +59,23 @@
 
   "EDUCATION": "Tanulmányok",
   "PRIMARY1": "Alapfokú: ",
-  "PRIMARY2": "Általános iskola, 09/2008 - 12/2014 Bárdos Lajos Általános Iskola - Dunakeszi",
-  "PRIMARY3": "",
-  "PRIMARY4": "",
+  "PRIMARY2": "Általános iskola, 09/2008 - 12/2014, Bárdos Lajos Általános Iskola - Dunakeszi",
+  "PRIMARY3": "Általános iskola, 12/2014 - 08/2016, Fóti Szabad Waldorf Óvoda, Iskola és Gimnázium - Fót.",
+  
+  "GRADUATE1": "Érettségi:",
+  "GRADUATE2": "Alapfokú művészeti iskola, 09/2016 - 08/2021, Fóti Szabad Waldorf Óvoda, Iskola és Gimnázium - Fót.",
+  "GRADUATE3": "Emelt szintű informatika érettségi",
 
-  "RESULTS": "Eredmények",
-  "CCNA": "CCNA: Introduction to Networks course"
+  "TECHNICIAN1": "Technikus:",
+  "TECHNICIAN2": "Szoftverfejlesztő és tesztelő, 09/2021 - 08/2023, BZSH Külkereskedelmi Technikum - Budapest.",
+  "TECHNICIAN3": "Adatbázis-kezelés: tanultunk sql lekérdezéseket írni, adatbázis-tervezést, phpmyadmin felületen dolgoztunk.",
+  "TECHNICIAN4": "Backend: Laravel keretrendszer, PHP nyelv sem ismeretlen a számomra.",
+  "TECHNICIAN5": "Frontend: Angular keretrendszerben mélyedtünk el, azóta is főleg ezt használom.",
+  "TECHNICIAN6": "Git verziókezelés",
+
+  "BSC1": "BSc:",
+  "BSC2": "Mérnökinfromatikus, 09/2023 - Jelenleg, Gábor Dénes Egyetem - Budapest.",
+
+  "RESULT1": "Eredmények",
+  "RESULT2": "CCNA: Introduction to Networks course"
 }

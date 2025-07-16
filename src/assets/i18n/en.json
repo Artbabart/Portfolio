@@ -51,17 +51,30 @@
   "PACKER3": "Tasks: packing playing cards.",
   "PACKER4": "Experience: tolerance for monotony, physical endurance.",
 
-  "HELPER1": "Helper, Gofri Ház – Dunakeszi, Pest",
+  "HELPER1": "Assistant, Gofri Ház – Dunakeszi, Pest",
   "HELPER2": "Occasional Job, 01/2018 – 12/2020",
   "HELPER3": "Tasks included: making, serving, and presenting waffles, taking orders, washing dishes, cleaning.",
   "HELPER4": "Experience: communication with guests, planning and quickly learning workflows, handling unexpected situations, cooperation.",
 
   "EDUCATION": "Education",
   "PRIMARY1": "Primary:",
-  "PRIMARY2": "Elementary School, 09/2008 - 12/2014 Bárdos Lajos Elementary School – Dunakeszi",
-  "PRIMARY3": "",
-  "PRIMARY4": "",
+  "PRIMARY2": "Primary school, 09/2008 - 12/2014, Bárdos Lajos Általános Iskola – Dunakeszi",
+  "PRIMARY3": "Primary school, 12/2014 - 08/2016, Fóti Szabad Waldorf Óvoda, Iskola és Gimnázium - Fót.",
+  
+  "GRADUATE1": "Graduate:",
+  "GRADUATE2": "Elementary art school, 09/2016 - 08/2021, Fót Free Waldorf Kindergarten, School and High School - Fót.",
+  "GRADUATE3": "Advanced level IT graduation exam",
 
-  "RESULTS": "Achievements",
-  "CCNA": "CCNA: Introduction to Networks course"
+  "TECHNICIAN1": "Technician:",
+  "TECHNICIAN2": "Software developer and tester, 09/2021 - 08/2023, BZSH Külkereskedelmi Technikum - Budapest.",
+  "TECHNICIAN3": "Database management: we learned to write SQL queries, design databases, and worked with phpMyAdmin.",
+  "TECHNICIAN4": "Backend: Laravel framework, I’m also familiar with the PHP language.",
+  "TECHNICIAN5": "Frontend: We specialized in the Angular framework, and I’ve been mainly using it since.",
+  "TECHNICIAN6": "Git version control",
+
+  "BSC1": "BSc:",
+  "BSC2": "Computer Science Engineer, 09/2023 - Currently, Gábor Dénes Egyetem - Budapest.",
+
+  "RESULT1": "Achievements:",
+  "RESULT2": "CCNA: Introduction to Networks course"
 }
